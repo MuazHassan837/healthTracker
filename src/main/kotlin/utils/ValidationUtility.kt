@@ -1,8 +1,10 @@
 package utils
+/** validation functions resides here */
 
 fun genderVal(ComingGender : Char) : Boolean {
     return listOf('M','F','O').contains(ComingGender)
 }
+
 fun emailVal(comingEmail : CharArray) : Boolean {
     return (comingEmail.contains('@'))
 }
